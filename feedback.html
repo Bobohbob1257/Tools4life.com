@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=devide-width , initial-scale=1.0">
+        <title>Tools, the place to find all the tools you need</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="feedback.css">
+        <script src="feedback.js"></script>
+    </head>
+    <body class="navigation-bar">
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="images/Logo.png" class="logo"></a>
+                <ul>
+                    <li><a href="newtool.html">Ask to add a new tool</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="weather.html">Weather Tool</a></li>
+                </ul>
+            </nav>
+        </div>
+    </body>
+    <body class="feedback">
+        <div class="wrapper">
+            <h3>Type your feedback below!</h3>
+            <form action="https://formspree.io/f/xleqvkak" method="POST">
+                <textarea name="opinion" cols="30" rows="5" placeholder="Your opinion..." required></textarea>
+                <div class="btn-group">
+                    <button type="submit" class="btn submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
